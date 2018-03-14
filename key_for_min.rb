@@ -18,12 +18,13 @@
 # end
 
 def key_for_min_value(hash)
-   lowest_key = nillowest_value = nil
+   lowest_item = nil
+   lowest_price = nil
    hash.each do |k, v|
-     if lowest_value == nil || v < lowest_value
-       lowest_value = v
-       lowest_key = k
+     if lowest_price == nil || v < lowest_price
+       lowest_price = v
+       lowest_item = k
      end
    end
-   lowest_key
+   lowest_item
  end 	
