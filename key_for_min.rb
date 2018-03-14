@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
     return nil
   end
   # low_price = 10000
-  low_price = Float::INFINITY 
+  low_price = Float::INFINITY
   low_item = ""
   name_hash.each do |item, price|
     if price < low_price
