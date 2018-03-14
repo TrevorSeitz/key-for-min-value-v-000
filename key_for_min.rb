@@ -13,15 +13,3 @@ def key_for_min_value(name_hash)
   end
   low_item
 end
-
-# def key_for_min_value(hash)
-#    lowest_item = nil
-#    lowest_price = nil
-#    hash.each do |k, v|
-#      if lowest_price == nil || v < lowest_price
-#        lowest_price = v
-#        lowest_item = k
-#      end
-#    end
-#    lowest_item
-#  end
