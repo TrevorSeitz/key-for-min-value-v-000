@@ -9,6 +9,6 @@ def key_for_min_value(name_hash)
       price = low_price
       low_item = item
     end
-  low_item
 end
+low_item
 end
